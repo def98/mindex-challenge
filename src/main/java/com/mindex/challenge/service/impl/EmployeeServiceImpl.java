@@ -23,7 +23,6 @@ public class EmployeeServiceImpl implements EmployeeService {
 
         employee.setEmployeeId(UUID.randomUUID().toString());
         employeeRepository.insert(employee);
-
         return employee;
     }
 
